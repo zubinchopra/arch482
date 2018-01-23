@@ -1,0 +1,100 @@
+body {
+    margin: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Raleway', sans-serif;
+}
+
+.name-container {
+    display: flex;
+    /* background-image: url('./BG.jpg'); */
+    background-position: center;
+    background-size: cover;
+    height: 95vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #333;
+}
+
+.image-container {
+    background-color: #000;
+}
+
+p {
+    line-height: 0.3in;
+}
+
+h1, h3 {
+    margin: 0px;
+}
+
+#greet {
+    font-weight: 10;
+    font-size: 72px;
+}
+
+#name {
+    margin-top: 8px;
+    font-weight: 100;
+    font-size: 20px;
+}
+
+.about {
+    display: flex;
+    flex-direction: column;
+}
+
+.about-me {
+    display: flex;
+    justify-content: center;
+    font-size: 24px;
+}
+
+.about-text {
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.exp {
+    margin-top: 50px;
+}
+
+.learning-container {
+    display: flex;
+    margin-top: 80px;
+    justify-content: center;
+}
+
+#profile-img {
+    border-radius: 50%;
+    box-sizing: border-box;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+#learning-title {
+    font-size: 24px;
+}
+
+a {
+    font-weight: 100;
+    text-decoration: none;
+    color: #333;
+    font-size: 12px;
+    padding: 12px;
+}
+
+a:hover {
+    font-weight: bold;
+}
+
+.links {
+    display: flex;
+    flex-direction: row-reverse;
+    padding-right: 24px;
+    padding-top: 12px;  
+}
